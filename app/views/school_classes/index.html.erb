@@ -1,0 +1,5 @@
+<h1>School Classes</h1>
+<% @schoolclasses.each do |schoolclass| %>
+    <%= link_to(schoolclass.title, school_classes_path(schoolclass)) %><br>
+<% end %>
+
